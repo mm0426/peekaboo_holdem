@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xamarin.Forms;
 
-namespace Peekaboo_Holdem
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace Peekaboo_Holdem.View
 {
-    public partial class MainPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class peekaboo : ContentPage
     {
-        public MainPage()
+        public peekaboo()
         {
             InitializeComponent();
         }
